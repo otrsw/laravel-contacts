@@ -2,9 +2,9 @@
 
 namespace Otrsw\LaravelContacts;
 
+use Otrsw\LaravelContacts\Commands\LaravelContactsCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Otrsw\LaravelContacts\Commands\LaravelContactsCommand;
 
 class LaravelContactsServiceProvider extends PackageServiceProvider
 {
